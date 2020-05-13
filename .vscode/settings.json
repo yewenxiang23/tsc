@@ -1,0 +1,13 @@
+{
+    "eslint.codeAction.disableRuleComment": {
+        "eslint.validate": [
+            "javascript",
+            "javascriptreact",
+            {
+                "language": "typescript",
+                "autoFix": true
+            },
+        ],
+        "typescript.tsdk": "node_modules/typescript/lib"
+    }
+}
